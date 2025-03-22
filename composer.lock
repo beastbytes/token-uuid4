@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e0f7fa1f1476b5c2cde5e38dac8d0953",
+    "content-hash": "f156d1db60344543e8314218398eddea",
     "packages": [
         {
             "name": "beastbytes/token",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/beastbytes/token.git",
-                "reference": "5a597262db6a4cf1430142b7954a5431e5b98f49"
+                "reference": "4babf1eedacaf45c73245b4ce56a980dee9b065c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/beastbytes/token/zipball/5a597262db6a4cf1430142b7954a5431e5b98f49",
-                "reference": "5a597262db6a4cf1430142b7954a5431e5b98f49",
+                "url": "https://api.github.com/repos/beastbytes/token/zipball/4babf1eedacaf45c73245b4ce56a980dee9b065c",
+                "reference": "4babf1eedacaf45c73245b4ce56a980dee9b065c",
                 "shasum": ""
             },
             "require": {
@@ -48,7 +48,7 @@
                 "issues": "https://github.com/beastbytes/token/issues",
                 "source": "https://github.com/beastbytes/token/tree/master"
             },
-            "time": "2025-03-21T21:32:46+00:00"
+            "time": "2025-03-22T12:24:57+00:00"
         },
         {
             "name": "brick/math",
@@ -112,16 +112,16 @@
         },
         {
             "name": "ramsey/collection",
-            "version": "2.1.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/collection.git",
-                "reference": "3c5990b8a5e0b79cd1cf11c2dc1229e58e93f109"
+                "reference": "344572933ad0181accbf4ba763e85a0306a8c5e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/collection/zipball/3c5990b8a5e0b79cd1cf11c2dc1229e58e93f109",
-                "reference": "3c5990b8a5e0b79cd1cf11c2dc1229e58e93f109",
+                "url": "https://api.github.com/repos/ramsey/collection/zipball/344572933ad0181accbf4ba763e85a0306a8c5e2",
+                "reference": "344572933ad0181accbf4ba763e85a0306a8c5e2",
                 "shasum": ""
             },
             "require": {
@@ -182,9 +182,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ramsey/collection/issues",
-                "source": "https://github.com/ramsey/collection/tree/2.1.0"
+                "source": "https://github.com/ramsey/collection/tree/2.1.1"
             },
-            "time": "2025-03-02T04:48:29+00:00"
+            "time": "2025-03-22T05:38:12+00:00"
         },
         {
             "name": "ramsey/uuid",

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace BeastBytes\Token\Factory\Uuid4;
+namespace BeastBytes\Token\Uuid4;
 
 use BeastBytes\Token\TokenFactoryInterface;
 use Ramsey\Uuid\Uuid;

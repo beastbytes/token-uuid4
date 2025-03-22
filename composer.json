@@ -1,5 +1,5 @@
 {
-  "name": "beastbytes/token-factory-uuid4",
+  "name": "beastbytes/token-uuid4",
   "description": "UUID 4 Token Factory for BeastBytes Token",
   "keywords": [
     "UUID4",
@@ -21,12 +21,12 @@
   },
   "autoload": {
     "psr-4": {
-      "BeastBytes\\Token\\Factory\\Uuid4\\": "src/"
+      "BeastBytes\\Token\\Uuid4\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "BeastBytes\\Token\\Factory\\Uuid4\\Tests\\": "tests/"
+      "BeastBytes\\Token\\Uuid4\\Tests\\": "tests/"
     }
   }
 }

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace BeastBytes\Token\Factory\Uuid4\Tests;
+namespace BeastBytes\Token\Uuid4\Tests;
 
-use BeastBytes\Token\Factory\Uuid4\TokenFactory;
+use BeastBytes\Token\Uuid4\TokenFactory;
 use PHPUnit\Framework\TestCase;
 use Ramsey\Uuid\Uuid;
 
