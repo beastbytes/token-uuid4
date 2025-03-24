@@ -1,32 +1,40 @@
 {
-  "name": "beastbytes/token-uuid4",
-  "description": "UUID 4 Token Factory for BeastBytes Token",
-  "keywords": [
-    "UUID4",
-    "token",
-    "yii3"
-  ],
-  "type": "library",
-  "minimum-stability": "dev",
-  "prefer-stable": true,
-  "license": "BSD-3-Clause",
-  "require": {
-    "php": "^8.1",
-    "beastbytes/token": "dev-master",
-    "ramsey/uuid": "^4.0"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^10.0",
-    "vimeo/psalm": "^5.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "BeastBytes\\Token\\Uuid4\\": "src/"
+    "name": "beastbytes/token-uuid4",
+    "description": "UUID 4 Token Factory for BeastBytes Token",
+    "keywords": [
+        "UUID4",
+        "token",
+        "yii3"
+    ],
+    "type": "library",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": "^8.1",
+        "beastbytes/token": "dev-master",
+        "ramsey/uuid": "^4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0",
+        "vimeo/psalm": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BeastBytes\\Token\\Uuid4\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BeastBytes\\Token\\Uuid4\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "config-plugin-options": {
+            "source-directory": "config"
+        },
+        "config-plugin": {
+            "di": "di.php"
+        }
     }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "BeastBytes\\Token\\Uuid4\\Tests\\": "tests/"
-    }
-  }
 }
